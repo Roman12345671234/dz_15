@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+    <title>Домашка №15</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" rel="stylesheet">
+    <link href="/resources/demos/style.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js">
+    </script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                    type="button"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Service</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdown" role="button">Menu</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Действие</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Другое действие</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Что-то еще здесь</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="search page">
+                    <a class="dropdown-item" href="#" target="_blank"><img height="40" src="images/search.png" width="40"></a>
+                </div>
+                <div class="to buy">
+                    <a class="dropdown-item" href="#" target="_blank"><img height="40" src="images/to%20buy.png" width="40"></a>
+                </div>
+                <div id="dialog" title="Registration">
+                    <form action="" id="connection" method="post" name="connection">
+                        <label><input class="information" name="client_name" placeholder="Your name" type="text"></label>
+                        <label><input class="information" name="client_phone" placeholder="+4 (999) 999-99-99" type="tel"></label>
+                        <label class="i_agree"><input class="checkbox" name="i_agree" type="checkbox"> I accept
+                            <a href="#">the conditions for the transfer of personal data</a></label>
+                        <button class="btn btn-primary" type="reset">Submit your application</button>
+                    </form>
+                </div><button class="btn btn-primary" id="opener" type="button">Regestar Now</button>
+            </div>
+        </div>
+    </nav>
+</header>
+<section class="vegetables">
+    <div class=".container-fluid">
+        <h2 class="tree"><b>Organic Fruit & Vegetables</b></h2>
+        <p class="green">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+            Lorem Ipsum has been the industry's standard dummy text ever since the<br>
+            1500s, when an unknown printer took a galley...</p>
+    </div>
+    <div>
+        <a class="order-now" href="#" target="_blank">
+            <p class="order"><b>Order Now</b> <img alt="order" class="img-fluid" src="images/order%20now.png"></p></a>
+    </div>
+    <div class="container">
+        <a href="#" target="_blank">
+            <p class="orders">. <img alt="user" class="img-fluid" src="images/users.png"></p></a>
+    </div>
+    <div class="container">
+        <a href="#" target="_blank">
+            <p class="orders">. <img alt="user" class="img-fluid" src="images/reviews.png"></p></a>
+    </div>
+    <div class="container">
+        <a href="#" target="_blank">
+            <p class="orders">. <img alt="user" class="img-fluid" src="images/items.png"></p></a>
+    </div>
+</section>
+<section class="delivery">
+    <div class=".container-fluid">
+        <h2 class="wow"><b>Why We Aer The Best?</b></h2>
+        <p class="best">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+            Lorem Ipsum has been the industry's standard dummy text ever since the<br>
+            1500s, when an unknown printer took a galley...</p>
+    </div>
+    <div class="container">
+        <div class="ruby">
+            <a class="order-now" href="#" target="_blank">
+                <h5><b>Fasted delivery Service</b></h5>
+                <p class="best-1">Lorem Ipsum is simply dummy text of the<br>
+                    printing and typesetting industry.</p></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="rood">
+            <a class="order-now" href="#" target="_blank">
+                <h5><b>Online order Service</b></h5>
+                <p class="best-1">Lorem Ipsum is simply dummy text of the<br>
+                    printing and typesetting industry.</p></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="ready">
+            <a class="order-now" href="#" target="_blank">
+                <h5><b>24/8 Service</b></h5>
+                <p class="best-1">Lorem Ipsum is simply dummy text of the<br>
+                    printing and typesetting industry.</p></a>
+        </div>
+    </div>
+</section>
+<section class="apple">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-6 col-lg-6"></div>
+            <div class="col-6 col-md-6 col-lg-6">
+                <h3 class="twist"><b>Explor Our Special<br>
+                    Items</b></h3>
+                <p class="navy">Lorem Ipsum is simply dummy text of the printing and typesetting<br>
+                    industry. Lorem Ipsum has been the industry's standard dummy text<br>
+                    ever since the 1500s, when an unknown printer...</p><a class="order-now" href="#" target="_blank">
+                <p class="explor"><b>Explor Now</b> <img alt="order" class="img-fluid" src="images/order%20now.png"></p></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleCaptions">
+        <div class="carousel-indicators">
+            <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+            <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleCaptions" type="button">
+
+            </button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleCaptions" type="button">
+        </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="..." class="d-block w-100" src="images/Hridoy.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="revision">
+                        <h2 class="wood"><b>Why We Aer The Best?</b></h2>
+                        <p class="been">Lorem Ipsum is simply dummy text of the printing and typesetting<br>
+                            industry. Lorem Ipsum has been the industry's standard dummy text<br>
+                            ever since the 1500s, when an unknown printer took a galley of type<br>
+                            and scrambled it to make a type specimen book. It has survived not<br>
+                            only five centuries, but also the leap into electronic typesetting,<br>
+                            remaining essentially unchanged. It was popularis</p>
+                        <h4 class="history">Ahmed Hridoy</h4>
+                        <div class="rating-area">
+                            <input id="star-5" name="rating" type="radio" value="5"> <label for="star-5" title="Оценка «5»"></label>
+                            <input id="star-4" name="rating" type="radio" value="4"> <label for="star-4" title="Оценка «4»"></label>
+                            <input id="star-3" name="rating" type="radio" value="3"> <label for="star-3" title="Оценка «3»"></label>
+                            <input id="star-2" name="rating" type="radio" value="2"> <label for="star-2" title="Оценка «2»"></label>
+                            <input id="star-1" name="rating" type="radio" value="1"> <label for="star-1" title="Оценка «1»"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="images/Ban.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="revision">
+                        <h2 class="wood"><b>Why We Aer The Best?</b></h2>
+                        <p class="been">Lorem Ipsum is simply dummy text of the printing and typesetting<br>
+                            industry. Lorem Ipsum has been the industry's standard dummy text<br>
+                            ever since the 1500s, when an unknown printer...</p>
+                        <h4 class="history">Ban Stive</h4>
+                    </div>
+                </div>
+            </div>
+        </div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleCaptions"
+                      type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Предыдущий</span></button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleCaptions" type="button">
+            <span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+</section>
+<section class="iphone">
+    <div class="container">
+        <div class="row">
+            <div class="col-5 col-md-5 col-lg-5"></div>
+            <div class="col-7 col-md-7 col-lg-7">
+                <button class="btn btn-secondary add-btn" type="button">Download App</button>
+                <h3 class="twister"><b>Explor Our Special<br>
+                    Items</b></h3>
+                <p class="navy">Lorem Ipsum is simply dummy text of the printing and typesetting<br>
+                    industry. Lorem Ipsum has been the industry's standard dummy text<br>
+                    ever since the 1500s, when an unknown printer...</p>
+                <div class="res">
+                    <button class="btn btn-secondary add-btn" type="button">
+                        <img height="30" src="images/app%20store.png" width="104"></button>
+                    <button class="btn btn-secondary add-btn" type="button">
+                        <img height="30" src="images/google%20play.png" width="104"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class=".container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-4 col-lg-4">
+                    <a class="end" href="#"><img alt="logo" class="logo-1" height="50" src="images/logo.png" width="50"></a>
+                </div>
+                <div class="col-2 col-md-2 col-lg-2">
+                    <p class="footer-1"><b>Navigation</b></p>
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                    <p class="footer-1"><b>Resources</b></p>
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                    <p class="footer-1"><b>Contact Us</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-4 col-lg-4">
+                    <p class="footer-2">Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry. Lorem<br>
+                        Ipsum has been the industry's standard<br>
+                        dummy text ever since the 1500s, when<br>
+                        an unknown printer...</p>
+                </div>
+                <div class="col-2 col-md-2 col-lg-2">
+                    <a class="end" href="#">
+                        <p class="footer-3">About Us</p></a><br>
+                    <a class="end" href="#">
+                        <p class="footer-3">Service</p></a><br>
+                    <a class="end" href="#">
+                        <p class="footer-3">Menu</p></a>
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                    <a class="end" href="#">
+                        <p class="footer-3">Reviews</p></a><br>
+                    <a class="end" href="#">
+                        <p class="footer-3">Blog</p></a><br>
+                    <a class="end" href="#">
+                        <p class="footer-3">Update News</p></a>
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                    <p class="footer-5">Email: oyasim@email.com</p><br>
+                    <div class="contact">
+                        <a href="#" target="_blank"><img alt="facebook" class="footer-4" src="images/facebook.png"></a>
+                        <a href="#" target="_blank"><img alt="instagram" class="footer-4" src="images/twitter.png"></a>
+                        <a href="#" target="_blank"><img alt="twitter" class="footer-4" src="images/instagram.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js">
+</script>
+<script src="open%20dialog.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js">
+</script>
+</body>
+</html>
